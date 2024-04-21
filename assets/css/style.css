@@ -18,7 +18,6 @@
 }
 
 * {
-    margin: 0;
     box-sizing: border-box;
     border: 1px solid skyblue;
 }
@@ -29,11 +28,16 @@ body {
     border-right: 1px solid black;
 }
 
-h1, h2, h3 {
+h1, 
+h2, 
+h3 {
     font-family: "Lato", sans-serif;
 }
 
-p, a, ul, small {
+p,
+a, 
+ul, 
+small {
     font-family: "Ralway", sans-serif;
 }
 
@@ -58,11 +62,11 @@ header {
 }
 
 header img {
-    height: 250px;
-    width: 250px;
+    height: 150px;
+    width: 150px;
     margin: 20px auto auto;
     border: 3px solid;
-    border-radius: 50px;
+    border-radius: 50%;
     box-shadow: 0 0 30px white;
 }
 
@@ -91,16 +95,72 @@ main {
     flex-direction: row;
 }
 
-#sidebar {
+#side_bar {
     background-color: #782221;
     color: white;
 }
 
-#side_bar p, #side_bar ul {
+#side_bar p,
+#side_bar ul {
     padding: 25px;
+    color: white;
 }
 
 #side_bar h2 {
     margin-top: 10px;
     margin-right: 10px;
+    background-color: #dbc2a4;
+    color: black;
 }
+
+#about_me p {
+    text-indent: 30px;
+    background-color: #782221;
+}
+
+#content {
+    padding: 25px;
+    background-color: white;
+
+}
+
+#title {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-top: 20px;
+}
+
+#content h2{
+    padding-left: 10px;
+    background-color: #dbc2a4;
+}
+
+#insertion {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#title:hover #insertion {
+    background-position: top;
+    background-color: #782221;
+}
+
+#content h3,
+#content p,
+#content ul {
+    padding: 10px;
+}
+
+footer{
+    background-color: #782221;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50 px;
+    padding: 20px;
+    margin-top: -1em;
+}
+
