@@ -16,3 +16,32 @@
     font-style: bold;
     src: url('../fonts/Raleway-Bold.ttf'), url('../fonts/Raleway-Bold.woff') format("truetype");
 }
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    border: 1px solid skyblue;
+}
+
+body {
+    width: 1160px;
+    margin: auto;
+    border-right: 1px solid black;
+}
+
+h1, h2, h3 {
+    font-family: "Lato", sans-serif;
+}
+
+p, a, ul, small {
+    font-family: "Ralway", sans-serif;
+}
+
+ul {
+    margin-left: 30px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
