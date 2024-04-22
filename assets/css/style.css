@@ -19,7 +19,6 @@
 
 * {
     box-sizing: border-box;
-    border: 1px solid skyblue;
 }
 
 body {
@@ -139,8 +138,9 @@ main {
 #content h2{
     background-color: #dbc2a4;
     color: black;
+    border-left: solid;
+    border-left-width: 5px;
     border-left-color: #782221;
-    border-left-width: 10px;
 }
 
 #insertion {
